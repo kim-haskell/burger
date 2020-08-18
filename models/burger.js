@@ -10,7 +10,7 @@ var burger = {
   // The variables cols and vals are arrays.
   create: function(name, cb) {
     orm.create("burgers", ["burger_name", "devoured"], [name, false], 
-    cb)
+    cb);
   },
   update: function(id, cb) {
    var condition = "id=" + id;

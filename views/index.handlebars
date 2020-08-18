@@ -6,7 +6,7 @@
         </div>
         <div class="col-md-6 text-center" class="task">
             <div class="row">
-              {{#each burgers}}
+              {{#each burger_data}}
                 {{#unless this.devoured}}
                 <div class="col-md-9 text-center">
                     <pre>{{this.id}}. {{this.burger_name}}
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="col-md-6 text-center" class="task">
-              {{#each burgers}}
+              {{#each burger_data}}
                 {{#if this.devoured}}
                     <input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}" readonly>
                 {{/if}}

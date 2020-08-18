@@ -3,10 +3,6 @@ body {
     height: 900px;
     background-color: #fc6;
   }
-
-  .container {
-    text-align: center;
-  }
   ​
   #top-bar {
     margin-top: 28px;
@@ -70,7 +66,6 @@ body {
   h1 {
     color: #f30;
   }
-  Collapse
   
   
   
